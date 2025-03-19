@@ -1,0 +1,725 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.w-100{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.container{
+    height: 100px;
+    width: 1140px;
+    margin: auto;
+    /* background-color: darkgoldenrod; */
+}
+.flex{
+    display: flex;
+}
+.w-20{
+    width: 20%;
+    height: 100px;
+    /* background-color: blanchedalmond; */
+       
+}
+.w-80{
+    width: 80%;
+    height: 100px;
+    /* background-color: rgb(135, 108, 69); */ 
+}
+.w-80 ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.w-80 ul li{
+    list-style: none;
+}
+.w-80 ul li a{
+    text-decoration: none;
+    color: rgb(21, 14, 14);
+    font-family: "Marcellus", sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.main{
+    /* width: 500px;
+    height: 200px;
+    background-color: aqua; */
+    position: absolute;
+    top: 100px;
+    display: none;
+    z-index: 3;
+}
+ul li:hover .main{
+    display: block;
+} 
+.sub{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+.sub ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Marcellus", sans-serif;
+}
+.pic{
+    width: 100%;
+    height: 500px;
+    /* background-color: aquamarine; */
+    background-image: url("https://bootstrapmade.com/content/demo/AgriCulture/assets/img/hero_5.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.pic::before{
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: rgba(9, 10, 9, 0.6); /* rgba */
+    z-index: -1;
+    position: absolute;
+}
+.pic h1{   
+    color: white;
+    padding-top: 150px;
+    padding-left: 300px;
+    font-size: 65px;
+    padding-right: 140px;
+    font-weight: 300;
+}
+.pic p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 300px;
+    font-size: 18px;
+    font-family: "Marcellus", sans-serif;
+    padding-right: 140px;
+    font-weight: 300;
+}
+.services{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.services h3{
+    margin-left: 580px;
+    padding-top : 60px;
+    padding-bottom: 15px;
+    color: green;
+    font-weight: 300;
+}
+.services h1 {
+    margin-left: 300px;
+    color: black;
+    font-family: "Marcellus", sans-serif;
+    font-weight: -300;
+}
+.intresting{
+    width: 100%;
+    height: 550px;
+    /* background-color: gainsboro; */
+}
+.container1{
+    width: 1140px;
+    height: 550px;
+    margin: auto;
+    /* background-color: rgb(170, 202, 202);  */
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+
+}
+.box2{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box3{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box4{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box5{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box6{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box7{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white; 
+       
+}
+.box8{
+    height: 250px;
+    width: 283.5px;
+    border: 1px solid gainsboro;
+    background-color: white;       
+}
+.num1{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num2{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num3{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num4{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num5{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num6{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num7{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.num8{
+    color: gainsboro;
+    padding-left: 260px;
+    padding-top: 10px;
+}
+.photo1{
+    width: 150px;
+    height: 120px;
+    background-color: yellow;
+    background-image: url("https://media.gettyimages.com/id/1807493051/vector/nature-friendly-sketchy-doodle-vector-line-icon-with-editable-stroke-the-icon-is-suitable.jpg?s=612x612&w=0&k=20&c=SsbBEOAUNOIZRr7LF0EUGEHG6RWCciOmkaka1ONVMro=");
+    background-size: 100%  100%;
+}
+.photo2{
+    width: 150px;
+    height: 120px;
+    /* background-color: yellow; */
+    background-image: url("https://cdn-icons-png.flaticon.com/512/17786/17786602.png");
+    background-size: 100%  100%;
+}
+.photo3{
+    width: 150px;
+    height: 120px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1112/1112402.png");
+    margin-left: 10px;
+}
+.photo4{
+    width: 150px;
+    height: 120px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/753/520/non_2x/illustration-and-icon-stick-figure-stickman-pictogram-lawn-mowing-lawn-mover-mowing-the-grass-free-vector.jpg");
+}
+.photo5{
+    width: 150px;
+    height: 100px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/517/517570.png");
+}
+.photo6{
+    width: 150px;
+    height: 120px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://media.istockphoto.com/id/1256188089/vector/fruits-and-vegetables-black-glyph-icon.jpg?s=612x612&w=0&k=20&c=aSXDG4T2kMk-4uvTypEvJv6aKvw2t1n2GNe4Guu4Ne4=");
+}
+.photo7{
+    width: 130px;
+    height: 100px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://cdn-icons-png.freepik.com/256/4177/4177835.png?semt=ais_hybrid");
+    margin-left: 5px;
+}
+.photo8{
+    width: 150px;
+    height: 100px;
+    /* background-color: yellow; */
+    background-size: 100%  100%;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/farming-innovicons-black/128/market_food_shop_seller_vegetables-512.png");
+}
+.name1{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.name1{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.name2{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.name3{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.name4{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.name5{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.name6{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.name7{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.name8{
+    /* color: green; */
+    font-family: "Marcellus", sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.contant1{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant1 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant2{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant2 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant3{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant3 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant4{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant4 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant5{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant5 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant6{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant6 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant7{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant7 p{
+    font-family: "Marcellus", sans-serif;
+}
+.contant8{
+    width: 250px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contant8 p{
+    font-family: "Marcellus", sans-serif;
+}
+.section{
+    width: 100%;
+    height: 700px;
+    background-color: green;
+    margin-top: 50px;
+}
+.container3{
+    width: 1140px;
+    height: 700px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.flex2{
+    display: flex;
+}
+.part1{
+    width: 45%;
+    height: 700px;
+    /* background-color: bisque; */
+}
+
+.picture{
+    background-image: url("https://bootstrapmade.com/content/demo/AgriCulture/assets/img/img_long_5.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;   
+    margin-top: -50px;
+}
+.part2{
+    width: 55%;
+    height: 700px;
+    /* background-color: rgb(223, 154, 70); */
+}
+.part2 h2{
+    color: gainsboro;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.part2 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 190px;
+    font-weight: 300;
+}
+.part2 p{
+    color: gainsboro;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 190px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.icon{
+    height: 300px;
+    width: 500px;
+    /* background-color: antiquewhite; */
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.icon1{
+    height: 80px;
+    width: 100px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+}
+.flex4{
+    display: flex;
+}
+.plants1{
+    height: 80px;
+    width: 500px;
+    /* background-color: aqua;     */
+}
+
+.plants1 h3{
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon1 i{
+    font-size: 50px;
+}
+.icon2{
+    height: 80px;
+    width: 100px;
+    /* background-color: rgb(90, 165, 165); */
+    margin-left: 20px;  
+}
+.flex5{
+    display: flex;
+}
+.plants2{
+    height: 80px;
+    width: 500px;
+    /* background-color: aqua; */
+    
+}
+.plants2 h3{
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon2 i{
+    font-size: 50px;
+}
+.icon3{
+    height: 80px;
+    width: 100px;
+    /* background-color: rgb(34, 70, 70); */
+    margin-left: 20px;   
+}
+.plants3 h3{
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex6{
+    display: flex;
+}
+.plants3{
+    height: 80px;
+    width: 500px;
+    /* background-color: aqua; */   
+}
+.icon3 i{
+    font-size: 50px;
+}
+.video{
+    width: 100%;
+    height: 600px;
+    /* background-color: gainsboro; */
+}
+.container4{
+    width: 1140px;
+    height: 500px;
+    margin: auto;
+    /* background-color: rgb(128, 60, 60); */
+}
+.flex7{
+    display: flex;
+}
+.partt1{
+    width: 50%;
+    height: 500px;
+    /* background-color: aquamarine; */
+}
+.partt1 h2
+{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.partt1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    margin-left: 20px;
+    padding-right: 80px;
+    margin-bottom: 30px;
+}
+.partt1 h3{
+    font-weight: 20;
+    color: black;
+}
+.partt1 h3 i{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-left: 20px;
+}
+button{
+    border: 2px solid #416946;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: #416946;
+    font-size:  14px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.partt1 button:hover{
+    /* z-index: 0; */
+    color: #34bf49;
+    background-color: white;
+} 
+.partt2{
+    width: 50%;
+    height: 500px;
+    /* background-color: rgb(88, 110, 103); */
+}
+.partt2 video{
+    margin-top: 50px;
+    height: 100%;
+    width: 90%;
+}
+.black{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.container5{
+    width: 1140px;
+    height: 550px;
+    /* background-color: gainsboro; */
+    margin: auto;
+}
+.container5 h2{
+    color: gainsboro;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+}
+.container5 h1{
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.flex8{
+    display: flex;
+}
+.boxx1{
+    height: 300px;
+    width: 350px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url("https://bootstrapmade.com/content/demo/AgriCulture/assets/img/img_sq_8.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+}
+.boxx2{
+    height: 300px;
+    width: 350px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url("https://bootstrapmade.com/content/demo/AgriCulture/assets/img/img_sq_3.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+}
+.boxx3{
+    height: 300px;
+    width: 350px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url("https://bootstrapmade.com/content/demo/AgriCulture/assets/img/img_sq_6.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+}
+.sub1{
+    height: 900px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+.sub1 h2{
+    padding-top: 50px;
+    padding-left: 550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.sub1 h1{
+    padding-top: 15px;
+    padding-left: 450px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container6{
+   width: 1140px;
+   height: 770px;
+   /* background-color: antiquewhite; */
+   margin: auto;
+}
+.flex9{
+    display: flex;
+}
+.parttt1{
+    width: 50%;
+    height: 770px;
+    background-color: rgb(138, 104, 60);
+}
+.parttt2{
+    width: 50%;
+    height: 770px;
+    background-color: rgb(213, 185, 148);
+}
