@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.w-100{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.w-1140{
+    width: 1140px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: auto;
+    position: relative;
+}
+.w-20{
+    width: 20%;
+    height: 100px;
+    background-color: blue; 
+    float: left;  
+}
+.w-80{
+    width: 80%;
+    height: 100px;
+    background-color: blueviolet;
+    float: right;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background-color: chartreuse;
+    left: 0px;
+    position: absolute;
+    top: 100px; 
+}
