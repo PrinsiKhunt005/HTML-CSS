@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.w-100{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+.w-1140{
+    width: 1140px;
+    height: 70px;
+    /* background-color: rgb(68, 158, 98); */
+    margin: auto;
+    position: relative;
+}
+ .w-20{
+    width: 20%;
+    height: 70px;
+    /* background-color: antiquewhite;     */
+    background-image: url("https://www.cdmi.in/assets/front/images/creative-logo-blue.svg");
+    float: left;
+    background-size: 100% 100%;
+} 
+.w-80{
+    width: 80%;
+    /* background-color: aquamarine; */
+    height: 70px;
+    float: right; 
+    
+}
+/* .box{
+    width: 100%;
+    height: 500px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    display: none;
+}
+.w-80:hover .box{
+    display: block;
+} */
+ul{
+
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: rgb(35, 209, 113);
+    color: white;
+    display: block;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.mainclass{
+    width: 100%;
+    height: 440px;
+    background-color: rgb(127, 148, 255);
+    left: 0%;
+    position: absolute;
+    display: none;
+    top: 70px;
+}
+.sub{
+    width: calc(25% - 20px);
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(85, 152, 152);
+    float: left;
+}
+.sub ul{
+
+}
+.sub ul li{
+    
+}
+.sub ul li a{
+    background: none;
+    color: black;
+    padding: 8px 0px;
+    margin: 0px;
+}
+ul li:hover .mainclass{
+    display: block;
+}
