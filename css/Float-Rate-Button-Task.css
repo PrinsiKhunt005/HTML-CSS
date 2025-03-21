@@ -50,20 +50,20 @@
     padding: 20px;
 }
 .bg1{
-    background-image: url('../Pic//download\ \(2\).jpg');
+    background-image: url('../demo/download.jpg');
 }
 .bg2{
-    background-image: url('../pic/download.jpg');
+    background-image: url('../demo/download\ \(2\).jpg');
 }
 .bg3{
-    background-image: url('../pic/download\ \(3\).jpg');
+    background-image: url('../demo/download\ \(3\).jpg');
 }
 .bg4{
-    background-image: url('../pic/download\ \(6\).jpg');
+    background-image: url('../demo/download\ \(4\).jpg');
 }
 .bg5{
-    background-image: url('../pic/banana.jpg');
+    background-image: url('../demo/download\ \(5\).jpg');
 }
 .bg6{
-    background-image: url('../pic/download\ \(4\).jpg');
+    background-image: url('../demo/download\ \(6\).jpg');
 }
