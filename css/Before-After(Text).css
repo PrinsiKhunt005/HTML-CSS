@@ -1,0 +1,23 @@
+span{
+    color: blue;
+    position: relative;
+    margin-left: 60px;
+}
+span::after{
+    content: "";
+    width: 12px;
+    height: 1px;
+    background-color: brown;
+    position: absolute;
+    top: 8px;
+    left: -15px;
+}
+span::before{
+    content: "";
+    width: 12px;
+    height: 1.5px;
+    background-color: brown;
+    position: absolute;
+    top: 9px;
+    left: 37px;
+}
