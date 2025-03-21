@@ -1,0 +1,69 @@
+*{ /* universal body/class */
+    margin: 0px;
+    padding: 0px;
+}
+.w-100{
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: aqua; */
+}
+.container{
+    width: 1140px;
+    /* height: 500px; */
+    /* background-color: blue; */
+    margin: auto;
+}
+.w-33{
+    width: calc(33.33% - 20px);
+    margin: 10px; /* ander thi lage */
+    height: 450px;
+    background-color: rgb(83, 109, 109);
+    border-radius: 20px;
+    overflow: hidden; /* image ne radius na thy tyare */
+    float: left;
+}
+.image{
+    width: 100%;
+    height: 300px;
+    background-image: url('../Pic/download.jpg');
+    background-size: 100% 100%; /* height and width image ni bix ni andar ae j size mujab fit karva.*/
+}
+.write{
+    padding: 20px;  
+    background-color: #3cc7ee;
+    border-bottom: 2px solid black;
+}
+.star{
+    float: left;
+}
+.btn{
+    float: right;
+    padding: 15px; /* bar thi lage */
+    background-color: rgb(140, 47, 112);
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.starsection{
+    padding: 20px;
+}
+.bg1{
+    background-image: url('../Pic//download\ \(2\).jpg');
+}
+.bg2{
+    background-image: url('../pic/download.jpg');
+}
+.bg3{
+    background-image: url('../pic/download\ \(3\).jpg');
+}
+.bg4{
+    background-image: url('../pic/download\ \(6\).jpg');
+}
+.bg5{
+    background-image: url('../pic/banana.jpg');
+}
+.bg6{
+    background-image: url('../pic/download\ \(4\).jpg');
+}
