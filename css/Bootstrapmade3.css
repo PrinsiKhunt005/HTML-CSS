@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.w-100{
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+}
+.w-1140{
+    width: 1140px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    /* background-color: blue; */
+}
+.part-1 h2{
+    width: 10.03%;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    float: left;
+}
+.part-2{
+    width: 82.9%;
+    height: 40px;
+    padding: 20px 20px 20px 20px;
+    /* background-color: rgb(197, 95, 158); */
+    float: right;    
+}
+ul{
+   
+}
+ ul li{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 10px 5px;
+    padding-left: 15px;
+    color: black;
+    
+}
+.Main{
+    height: 500px;
+    width: 100%;
+    left: 0px;
+    background-color: beige;
+    top: 80px;
+    position: absolute;
+    display: none;
+}
+ul li:hover .Main{
+    display: block;
+}
+.Sub{
+    width: calc(25% - 20px);
+    padding: 10px;
+    float: left;
+    height: 250px;
+    background-color: aquamarine;
+    
+}
+.Sub ul{
+
+}
+.Sub ul li{
+
+}
+.Sub ul li a{
+    color: black;
+    float: none; 
+    padding: 5px;
+    display: block;
+}
+
+.bg{
+    background-color: rgb(112, 115, 184);
+}
+
+
+
+.Main1{
+    height: 460px;
+    width: 100%;
+    left: 0px;
+    background-color: beige;
+    top: 80px;
+    position: absolute;
+    display: none;
+}
+ul li:hover .Main1{
+    display: block;
+}
+.Sub1{
+    width: calc(20% - 20px);
+    padding: 10px;
+    float: left;
+    height: 200px;
+    background-color: rgb(176, 141, 209);
+}
+.Sub1 ul{
+
+}
+.Sub1 ul li{
+
+}
+.Sub1 ul li a{
+    color: black;
+    float: none; 
+    padding: 5px;
+    display: block;
+}
+.bg1{
+    background-color: chartreuse;
+}
+
+.p-i{
+    width: 100%;
+    height: 500px;
+    /* background-color: whitesmoke; */
+}
+.ww-1140{
+    width: 1140px;
+    margin: auto;
+    height: 500px;
+    /* background-color: rgb(155, 167, 167); */
+}
+.part11{
+    width: calc(35% - 20px);
+    padding: 10px;
+    /* background-color: burlywood; */
+    height: 480px;    
+    float: left;
+}
+.part11 h3{
+    padding-top: 100px;
+    padding-left: 10px;
+} 
+.part11 h1{
+    padding-top: 8px;
+    color: gainsboro;
+    padding-left: 10px;
+}
+.part11 p{
+    width: 350px;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.part22{
+    width: calc(65% - 20px);
+    padding: 10px;
+    /* background-color: rgb(164, 120, 61); */
+    height: 440px;
+    float: right;
+    background-image: url("https://bootstrapmade.com/content/demo/Active/assets/img/img_h_6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+}
+
+.part11 button{
+    border: 2px solid #34bf49;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background-color: #34bf49;
+    font-size:  14px;
+    margin-top: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 600;
+
+}
+.part11 button:hover{
+    /* z-index: 0; */
+    color: #34bf49;
+    background-color: white;
+} 
+.part33{
+    height: 600px;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 60px 0px;
+}
+.under{
+    width: 1140px;
+    margin: auto;
+    height: 600px;
+    background-color: white;
+}
+.content{
+    width: 50%;
+    height: 600px;
+    /* background-color: gold; */
+    float: left;
+  }
+.content2{
+    width: 80%;
+    height: 400px;
+    /* background-color: pink; */
+    float: right;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;   
+}
+.content2 h5{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    font-weight: normal;
+}
+.content2 h2{
+    margin-bottom: 10px;
+}
+.content2 h3{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    font-weight: 200;
+}
+.content2 h4{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    font-weight: normal;
+}
+.content2 button{
+    border: 2px solid #34bf49;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background-color: #34bf49;
+    font-size:  14px;
+    margin-top: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.content2 button:hover{
+    color: #34bf49;
+    background-color: white;
+}
+.photo{
+    width: 50%;
+    height: 480px;
+    /* background-color: rgb(189, 177, 110); */
+    float: right;
+    padding: 90px 0px;
+}
+.photo2{
+    width: 60%;
+    height: 400px;
+    background-size: 100% 100%;
+    margin: auto;
+    background-image: url("https://bootstrapmade.com/content/demo/Active/assets/img/img_v_3.jpg");
+}
