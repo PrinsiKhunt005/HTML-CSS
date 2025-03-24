@@ -1181,7 +1181,8 @@ button{
 .b2{
     width: 20%;
     height: 500px;
-    background-color: rgb(161, 199, 90);
+    /* background-color: rgb(161, 199, 90); */
+    
 }
 .b2 h5{
     padding-top: 50px;
@@ -1200,17 +1201,19 @@ h5::after{
     height: 2px;
     background-color: green;
     position: absolute;
-    top: 78px;
+    top: 85px;
     left: 22px;   
+ 
 }
 .b2 ul{
-    list-style: none;
-    text-decoration: n;
+    list-style: none;  
 }
 .b2 ul li{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
 }
 .b2 ul li a{
+  
     color: gainsboro;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1225,7 +1228,7 @@ h5::after{
 .b3{
     width: 20%;
     height: 500px;
-    background-color: rgb(126, 123, 181);
+    /* background-color: rgb(126, 123, 181); */
 }
 .b3 h5{
     padding-top: 50px;
@@ -1234,12 +1237,27 @@ h5::after{
     font-size: 20px;
     color: white;
     position: relative;
+    padding-bottom: 30px;
 }
+.b3 ul{
+    list-style: none;  
+}
+.b3 ul li{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.b3 ul li a{
+  
+    color: gainsboro;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}   
 
 .b4{
     width: 20%;
     height: 500px;
-    background-color: rgb(197, 124, 175);
+    /* background-color: rgb(197, 124, 175); */
 }
 .b4 h5{
     padding-top: 50px;
@@ -1248,11 +1266,28 @@ h5::after{
     font-size: 20px;
     color: white;
     position: relative;
+    padding-bottom: 30px;
 }
+.b4 ul{
+    list-style: none;  
+}
+.b4 ul li{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.b4 ul li a{
+  
+    color: gainsboro;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+   
+}
+
 .b5{
     width: 20%;
     height: 500px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .b5 h5{
     padding-top: 50px;
@@ -1261,4 +1296,36 @@ h5::after{
     font-size: 20px;
     color: white;
     position: relative;
+    padding-bottom: 30px;
+}
+.b5 ul{
+    list-style: none;  
+}
+.b5 ul li{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.b5 ul li a{
+  
+    color: gainsboro;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+   
+}
+.social{
+    width: 100%;
+    height: 50px;
+    /* background-color: #416946; */
+    margin-top: 70px;
+
+}
+.flex17{
+  
+    display: flex;
+    font-size: 25px;
+    padding-top: 5px; 
+}
+.flex17 i{
+    padding-left: 20px;
 }
