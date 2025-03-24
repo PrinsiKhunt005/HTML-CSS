@@ -1195,7 +1195,47 @@ button{
 }
 
 
-h5::after{
+ .b2 h5::after{
+    content: "";
+    width: 27px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 85px;
+    left: 22px;   
+ 
+}
+.b2 h5::after{
+    content: "";
+    width: 27px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 85px;
+    left: 22px;   
+ 
+}
+.b3 h5::after{
+    content: "";
+    width: 27px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 85px;
+    left: 22px;   
+ 
+}
+.b4 h5::after{
+    content: "";
+    width: 27px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 85px;
+    left: 22px;   
+ 
+}
+.b5 h5::after{
     content: "";
     width: 27px;
     height: 2px;
@@ -1220,10 +1260,6 @@ h5::after{
     padding-left: 20px;
    
 }
-
-
-
-
 
 .b3{
     width: 20%;
