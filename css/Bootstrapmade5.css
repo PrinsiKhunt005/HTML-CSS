@@ -395,7 +395,7 @@
 .container3{
     width: 1140px;
     height: 4310px;
-    background-color: rgb(219, 200, 174);
+    /* background-color: rgb(219, 200, 174); */
     margin: auto;
 }
 .container3 h2{
@@ -1556,5 +1556,118 @@ button{
 .footer{
     width: 100%;
     height: 400px;
-    background-color: #fbf7f376;
+    /* background-color: #d4710e76; */
+}
+
+.footer h2{
+    color: #5c4b36;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    padding-top: 70px;
+    margin-left: 450px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.footer i{
+    margin-left: 200px;
+}
+.sos{
+    width: 50%;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-top: 35px;
+    margin-left: 250px;
+}
+.flex21{
+    display: flex;
+}
+.twiter{
+    height: 40px;
+    width: 40px;
+    background-color: #f17c13;
+    margin-left: 180px;
+    border-radius: 30px;
+}
+.twiter i{
+    /* padding: 0px; */
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+    background-color: #f17c13;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.facebook i{
+    /* padding: 0px; */
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.insta{
+    height: 40px;
+    width: 40px;
+    background-color: #f17c13;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.insta i{
+    /* padding: 0px; */
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+.ss{
+    height: 40px;
+    width: 40px;
+    background-color: #f17c13;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.ss i{
+    /* padding: 0px; */
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 20px;
+}
+.linked{
+    height: 40px;
+    width: 40px;
+    background-color: #f17c13;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.linked i{
+    /* padding: 0px; */
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+.border{
+    border-top: 1px solid rgba(220, 220, 220, 0.9);
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.paragraph p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    padding-top: 40px;
+    padding-left: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spara p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e0901f; 
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 450px;
 }
