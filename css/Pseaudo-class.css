@@ -1,0 +1,142 @@
+
+/* Jo link hase to hello lakhelu che teno color red thay jase and aa ek var new file create kari hase tyare j thase. */
+/* a:link{
+    background-color: red;
+} */
+
+/* hello par click karva thi teno background color yellow thay jase */
+/* a:hover{
+    background-color: yellow;
+} */
+
+/* link par ek var click karva thi te visited thy jase and pachi teno background color green thay jases */
+/* a:visited{
+    background-color: green;
+} */
+
+/* Hello par click karva thi background color pink thy jase link active hase to  */
+/* a:active{
+    background-color: pink;
+} */
+
+/* Class a,b,c ni andar first child je hase teno color blue thase and tena mate div hovu jaruri che */
+/* P:first-child{
+    color: blue;
+} */
+
+/* Class a,b,c ni andar last child je hase teno color blue thase and tena mate div hovu jaruri che */
+/* div:last-child{
+    color: rgb(39, 9, 239);
+} */
+
+/* P tag no third child hase teno color change thase tema
+    1.no
+    2.even
+    3.odd  
+    line wise even jove*/
+/* p:nth-child(2){
+    background-color: aquamarine;
+} */
+
+/* 1 div ni andar ek j p name no tag hovo joye */
+/* p:only-child{
+    background-color: antiquewhite;
+} */
+
+/* body ya div no pelo child hase teno color change thase */
+/* p:first-of-type{
+    color: yellowgreen;
+} */
+
+/* body ya div no last child hse teno color change thase */ 
+/* p:last-of-type{
+    background-color: brown;
+} */
+
+/* div hoi k na hoi even apyu hoi to even number per no color change thase
+   class wise even jove*/
+/* p:nth-of-type(2){
+    background-color: aqua;
+} */
+
+/* 1 div ni andar game atla tag hoi to chale but p name no tag ek j hovo joye */
+/* p:only-of-type{
+    background-color: rgb(225, 80, 27); 
+} */
+
+/* ek universal color api devano and pachi  check karvanu */
+/* *{
+    color: green;
+}
+:not(b)
+{
+    color: red;
+} */
+
+/* koi h2 tag khali hase to background color change thase and tena mate hight apvi jaruri che */
+/* h2:empty{
+    background-color: aqua;
+    height: 10px;
+    border: 2px solid purple;
+} */
+
+/* form ma je lakhiye teno color red ave */
+/* input:enabled{
+    color: red;
+} */
+
+/* button par click na thy and color and background color change thay jai */
+/* input:disabled{
+    color: green;
+    background-color: aqua;
+} */
+
+/* button ma lakhyu hoi teno color change thay jase tene focus kehvay */
+/* button:focus{
+    color: red;
+} */
+
+/* input:optional{
+    background-color: antiquewhite;
+} */
+
+/* input:out-of-range{
+    color: rgb(241, 13, 13);
+} */
+
+/* input:in-range{
+    color: aquamarine;
+} */
+
+/* only red kari sakay lakhi na sakay */
+/* input:read-only{
+    background-color: blueviolet;
+} */
+
+/* by default read and write bane thy */
+/* input:read-write{
+    background-color: red;
+} */
+ 
+/* input:required{
+    background-color: rgb(145, 145, 195);
+} */
+
+/* 
+:root{
+    background-color: aqua;
+} */
+
+/* div:target{
+    border: 2px solid black;
+    padding: 20px 20px;
+    color: rgb(247, 11, 11);
+}  */
+ 
+/* input:valid{
+    border: 2px solid green;
+} */
+
+/* input:invalid{
+    color: yellow;
+} */
