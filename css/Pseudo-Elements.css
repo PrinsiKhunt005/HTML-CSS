@@ -1,0 +1,44 @@
+
+/* first letter ni size vadharva */
+/* p::first-letter{
+    font-size: 30px;
+} */
+
+/* First line ma ferfar karva */
+/* p::first-line{
+    font-style: italic;
+} */
+
+/* paragraph ma select kareli line no bgcolor and font color change karva */
+/* p::selection{
+    background-color: antiquewhite;
+    color: green;
+} */
+
+/* span{
+    color: blue;
+    position: relative;
+    margin-left: 60px;
+}
+span::after{
+    content: "";
+    width: 12px;
+    height: 1px;
+    background-color: rgb(163, 99, 99);
+    position: absolute;
+    top: 8px;
+    left: -15px;
+}
+span::before{
+    content: "";
+    width: 12px;
+    height: 1px;
+    background-color: rgb(163, 99, 99);
+    position: absolute;
+    top: 8px;
+    left: -15px;
+} */
+
+/* input::placeholder{
+    color: brown;
+} */
