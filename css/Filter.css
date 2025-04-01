@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 300px;
+    background-color: rgb(30, 248, 6);
+}
+.box img{
+    width: 100%;
+    display: block;
+}
+.box:hover img{
+    filter: blur(2px);
+    filter: brightness(0.5);
+    filter: contrast(0.6);
+    filter: grayscale(1);
+    filter: sepia(1);
+    filter: opacity(0.9);
+    filter: opacity(90%);
+}
