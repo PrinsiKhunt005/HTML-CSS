@@ -4,20 +4,22 @@ span{
     margin-left: 60px;
 }
 span::after{
-    content: "";
+    content: "\f50d";
     width: 12px;
     height: 1px;
-    background-color: brown;
+    background-color: rgb(163, 99, 99);
     position: absolute;
     top: 8px;
     left: -15px;
+    font-family: "Font Awesome 6 Brands";
 }
 span::before{
-    content: "";
+    content: "\f50d";
     width: 12px;
     height: 1.5px;
     background-color: brown;
     position: absolute;
     top: 9px;
     left: 37px;
+    font-family: "Font Awesome 6 Brands";
 }
