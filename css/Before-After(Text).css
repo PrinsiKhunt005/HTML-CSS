@@ -1,7 +1,8 @@
 span{
     color: blue;
     position: relative;
-    margin-left: 60px;
+    margin-left: 40px;
+    padding-left: 2px;
 }
 span::after{
     content: "";
@@ -15,7 +16,8 @@ span::after{
 span::before{
     content: "\f50d";
     position: absolute;
-    top: 9px;
+    top: -1px;
     left: 37px;
+    margin-left: 4px;
     font-family: "Font Awesome 6 Brands";
 }
