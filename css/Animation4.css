@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 200px;
+    height: 130px;
+    background-color: #69d2fb;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding-top: 80px;
+    position: relative;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: #69d2fb;
+    border: 5px solid rgb(19, 7, 7);
+    border-radius: 50px;
+    margin-left: 80px;
+    position: absolute;
+    animation: demo 2s linear infinite;
+
+}
+.circle::before{
+    content: '';
+    height: 39px;
+    width: 22px;
+    position: absolute;
+    left: 13px;
+    background-color: #69d2fb;
+    top: 14.5px
+} 
+@keyframes demo {
+    0%{
+        transform: rotate(0);
+    }   
+    100%{
+        transform: rotate(360deg);
+    }
+}

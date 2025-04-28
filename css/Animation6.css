@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 130px;
+    width: 200px;
+    background-color: #69d2fb;
+    margin-top: 150px;
+    margin-left: 500px;
+    padding-top: 90px;
+    position: relative;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #69d2fb;
+    border-radius: 50px;
+    margin-left: 85px;
+    position: absolute;
+}
+.circle::before{
+    content: '';
+    height: 30px;
+    width: 30px;
+    border: 10px solid gainsboro;
+    border-radius: 50px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    border-top: 10px solid whitesmoke;
+    animation: demo infinite 3s 3s linear;
+}
+@keyframes demo {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

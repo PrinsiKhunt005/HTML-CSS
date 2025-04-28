@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 200px;
+    height: 100px;
+    background-color: #69d2fb;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding-top: 60px;  
+    position: relative;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background-color: #69d2fb;
+    border-radius: 50px;
+
+    border-top: 2px solid #111;
+    border-left: 2px solid #111;
+    animation: demo 2s linear infinite 5s ;
+    position: absolute;
+    margin-left: 85px;
+}
+@keyframes demo{
+    0%{
+        transform: rotate(0);
+    }   
+    100%{
+        transform: rotate(360deg);   
+    }
+}
