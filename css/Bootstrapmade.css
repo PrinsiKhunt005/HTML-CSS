@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0; 
+    z-index: 999;
+}
+.header{
+    width: 100%;
+    padding: 0 15px;
+    /* top down left right */
+    background-color: #000;
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-items-center{
+    align-items: center;
+}
+.part1{
+    width:20%;
+}
+.part1 p{
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+.part1 p::before{
+    content: "\f030";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: #27a776;
+    margin-right: 10px;
+}
+
+
+.part2{
+    width: 60%;
+    position: relative;
+}
+.part2 ul{ 
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.part2 ul li{
+    position: relative;
+    z-index: 3;
+}
+.part2 ul li a{
+    color: gainsboro;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    padding: 30px 0;
+    display: block;
+}
+.main{
+    position: absolute;
+    background-color: #1a1a1a;
+    width: 200px;
+    left: -75px;
+    display: none; 
+}
+.part2 ul li:hover > .main{
+    display: block; 
+}
+
+.main ul li a{
+    padding: 10px 0;
+}
+.sub{
+    color: white;
+    text-align: center;
+}
+.sub ul{
+    display: flex;
+    flex-direction: column;   
+}
+.sub-menu{
+    left: -100%;
+    top: 0;
+}
+
+
+.part3{
+    width: 20%;
+    position: relative;
+}
+.part3 .part3-main{
+    column-gap: 20px;
+    justify-content: end;
+}
+.p5 i{
+    font-size: 25px;
+}
+.p2 i{
+    font-size: 25px;
+}
+.p3 i{
+    font-size: 25px;
+}
+.p4 i{
+    font-size: 25px;
+}
+.middle{
+    width: 100%;
+    padding: 0 15px;
+    background-color: #000;
+}
+.middle p{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 20px 380px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.middle p::after{
+    content: '';
+    width: 211px;
+    height: 24px;
+    background-color: #27a776;
+    position: absolute;
+    z-index: -1;
+    top: 45px;
+    left: 529px;
+}
+h5{
+    color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0px 330px;
+    text-align: center;   
+}
+button{
+    padding: 10px 20px;
+    background-color: #27a776;
+    border-radius: 5px;
+    margin: 40px 530px;
+    width: 200px;
+}
+img{
+    width: 23.7%;
+    border-radius: 20px;
+    margin: 5px;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    padding: 0px 15px;
+}
+p{
+    color: aliceblue;
+    padding: 10px 10px;
+    text-align: center;
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.new{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+.p1{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+}
+.p1 i{
+    font-size: 20px;
+    margin: 7px 8px;
+}
+h6{
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 515px;
+    position: relative;
+}
+h6::after{
+    content: "BootstrapMade";
+    position: absolute;
+    color: #27a776;
+    margin-left: 5px;
+    left: 600px;
+}
